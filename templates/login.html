@@ -1,0 +1,26 @@
+<ion-view view-title="Login">
+    <body ng-app="app">
+    <ion-content class="padding" fb-image="https://unsplash.com/photos/_xjT0WB4AZQ">
+
+           
+
+        <section>
+        <!-- <style>
+            .padding{
+                background-image: url("https://unsplash.com/photos/_xjT0WB4AZQ");
+            }    
+        </style> -->
+        </section>
+         
+        <section>
+            <div style="margin-left: 100px; margin-top: 300px;">
+                <input type="text" placeholder="Usuário" ng-model="usuario" style="text-align: center; 
+                border: 2px solid black; border-radius: 30px;">
+                <input type="password" placeholder="Digite sua senha" ng-model="senha" 
+                style="text-align: center; border: 2px solid black; border-radius: 30px;">
+                <button ng-click="entrar(usuario, senha)" style="border-radius: 30px; margin-left: 50px;">Entrar</button>
+            </div>
+        </section>
+
+    </ion-content>
+</ion-view>
